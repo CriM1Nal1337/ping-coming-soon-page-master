@@ -1,0 +1,116 @@
+body{
+    height: 100vh;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+body, .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;flex-direction: column;
+}
+
+.logo{
+    margin-bottom: 5rem;
+}
+
+.container .title{
+    color: var(--Gray);
+    font-size: 4.9rem;
+    font-weight: 400;
+    margin-bottom: 1.7rem;
+}
+
+.title .soon{
+    color: var(--VeryDarkBlue);
+    font-weight: 700;
+}
+
+.p{
+    font-size: 2rem;
+    color: var(--VeryDarkBlue);
+    margin-bottom: 4rem;
+}
+
+#email{
+    height: 5.5rem;
+    width: 42.3rem;
+    border-radius: 3rem;
+    padding-left: 3rem;
+    font-size: 1.7rem;
+    border: 1px solid var(--PaleBlue);
+}
+
+#email::placeholder{
+    color: var(--PaleBlue);
+}
+
+.input{
+    position: relative;
+    margin-bottom: 8.8rem;
+}
+
+.error-email{
+    position: absolute;
+    left: 3rem;
+    bottom: -2.1rem;
+    color: var(--LightRed);
+    font-size: 1.2rem;
+}
+
+.btn{
+    border: none;
+    background-color: var(--Blue);
+    padding: 1.8rem 6.5rem;
+    color: var(--White);
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    margin-left: 1.3rem;
+    cursor: pointer;
+}
+
+.img{
+    width: 64rem;
+    margin-bottom: 7rem;
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-bottom: 2.5rem;
+}
+footer i{
+    color: #0040ff;
+    border: 1px solid #0040ff50;
+    border-radius: 3rem;
+    font-size: 1.6rem;
+}
+
+footer i:hover{
+    color: var(--White);
+    background-color: #0040ff;
+    transition: 0.4s ease-in-out;
+}
+
+footer .fa-instagram, .fa-twitter{
+    padding: 0.8rem;
+}
+
+footer .fa-facebook-f{
+    padding: 0.8rem 1rem;
+}
+
+footer .copy{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--Gray);
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#email.border-red{
+    border: 1px solid var(--LightRed);
+}

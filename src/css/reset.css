@@ -21,7 +21,8 @@ ul{
   font-size: 1.1rem;
   text-align: center;
   position: fixed;
-  bottom: 25px;
+  bottom: 2.5rem;
+  right: 2.5rem;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
